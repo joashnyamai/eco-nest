@@ -55,7 +55,7 @@ export default function AboutPage() {
                 Building a Sustainable Future, One Home at a Time
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded in 2020 by environmental advocates Mohammed Abdulrahman Mohammed, Ahmed Alhammadi, Mohammed Saeed Almheiri, and Zayed Hamad Khalifa Salem Khamisi, EcoNest Home was born from a simple belief: beautiful living spaces shouldn't come at the cost of our planet's health.
+                Founded in 2020 by environmental advocates Mohammed Abdulrahman Mohammed Ahmed Alhammadi, Mohammed Saeed Almheiri, and Zayed Hamad Khalifa Salem Khamisi, EcoNest Home was born from a simple belief: beautiful living spaces shouldn't come at the cost of our planet's health.
               </p>
             </div>
             <div className="relative">
@@ -158,38 +158,21 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center p-6 border-0 shadow-lg">
               <div className="aspect-square rounded-full overflow-hidden mb-4 mx-auto w-32">
                 <Image
                   src="/professional-headshot-of-sustainable-business-founder.jpg"
-                  alt="Mohammed Abdulrahman Mohammed"
+                  alt="Mohammed Abdulrahman Mohammed Ahmed Alhammadi"
                   width={200}
                   height={200}
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-heading text-lg font-semibold mb-1">Mohammed Abdulrahman Mohammed</h3>
+              <h3 className="font-heading text-lg font-semibold mb-1">Mohammed Abdulrahman Mohammed Ahmed Alhammadi</h3>
               <p className="text-secondary text-sm mb-3">Co-Founder & CEO</p>
               <p className="text-muted-foreground text-sm">
                 Environmental visionary and business strategist, passionate about making sustainable living accessible to all.
-              </p>
-            </Card>
-
-            <Card className="text-center p-6 border-0 shadow-lg">
-              <div className="aspect-square rounded-full overflow-hidden mb-4 mx-auto w-32">
-                <Image
-                  src="/professional-headshot-of-business-leader.jpg"
-                  alt="Ahmed Alhammadi"
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h3 className="font-heading text-lg font-semibold mb-1">Ahmed Alhammadi</h3>
-              <p className="text-secondary text-sm mb-3">Co-Founder & COO</p>
-              <p className="text-muted-foreground text-sm">
-                Operations expert focused on building ethical supply chains and sustainable business practices.
               </p>
             </Card>
 
